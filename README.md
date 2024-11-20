@@ -1,16 +1,13 @@
 # mp3_player
+# final_exam_2
 
-A new Flutter project.
+<h1 align = "center">
+  <img src="https://github.com/user-attachments/assets/ba237754-dbf1-4474-9634-74a289ab9758" height=65%  width=22%>
+  <img src="https://github.com/user-attachments/assets/978f2107-42f7-4fcd-a264-0c24f692afcf" height=65%  width=22%>
+</h1>
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Video
+<div align = "center">
+<video src="https://github.com/user-attachments/assets/8c3057e9-0de5-4e45-9253-4fba06942e62">
+</div>
