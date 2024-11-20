@@ -1,5 +1,4 @@
 # mp3_player
-# final_exam_2
 
 <h1 align = "center">
   <img src="https://github.com/user-attachments/assets/ba237754-dbf1-4474-9634-74a289ab9758" height=65%  width=22%>
