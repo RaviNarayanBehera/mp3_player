@@ -31,5 +31,5 @@ It features a recently played songs section, detailed song pages, and full playb
 
 # Video
 <div align = "center">
-<video src="https://github.com/user-attachments/assets/8c3057e9-0de5-4e45-9253-4fba06942e62">
+<video src="https://github.com/user-attachments/assets/ad73f830-b347-4ec6-ba0c-1e8fd34ca5bd">
 </div>
