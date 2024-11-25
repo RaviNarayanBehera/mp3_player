@@ -1,8 +1,11 @@
 # mp3_player
 
 <h1 align = "center">
-  <img src="https://github.com/user-attachments/assets/ba237754-dbf1-4474-9634-74a289ab9758" height=65%  width=22%>
-  <img src="https://github.com/user-attachments/assets/978f2107-42f7-4fcd-a264-0c24f692afcf" height=65%  width=22%>
+  <img src="https://github.com/user-attachments/assets/e2bd6388-3a93-4d16-8303-71574c3f114d" height=65%  width=22%>
+  <img src="https://github.com/user-attachments/assets/2b71955a-f9b9-4f79-bfed-1ffbf090bc9a" height=65%  width=22%>
+  <img src="https://github.com/user-attachments/assets/f8f0c9d5-cd0a-461f-8eb6-13f133d38a50" height=65%
+  width=22%>
+  <img src="https://github.com/user-attachments/assets/608ccf9b-9130-4891-936e-7d6699967742" height=65%  width=22%>
 </h1>
 
 
