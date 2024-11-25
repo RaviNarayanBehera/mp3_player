@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:mp3_player/modal/song_modal.dart';
-
 import 'api_service.dart';
 
 class SongProvider extends ChangeNotifier {
@@ -11,6 +10,9 @@ class SongProvider extends ChangeNotifier {
   Duration? duration;
 
   int currentIndex = -1;
+
+  // List to hold recently played songs
+  List<Result> recentlyPlayedSongs = [];
 
   Future<void> getSongs() async {
     // Fetch song list from API
@@ -24,6 +26,9 @@ class SongProvider extends ChangeNotifier {
   void selectSong(Result selectedSong, int index) {
     result = selectedSong;
     currentIndex = index;
+
+    // Add song to recently played list
+    _addRecentlyPlayedSong(selectedSong);
     notifyListeners();
   }
 
@@ -73,8 +78,18 @@ class SongProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  // Method to add a song to the recently played list
+  void _addRecentlyPlayedSong(Result song) {
+    // Add song to the beginning of the list
+    recentlyPlayedSongs.insert(0, song);
+
+    // Limit the list size to the most recent 5 songs
+    if (recentlyPlayedSongs.length > 5) {
+      recentlyPlayedSongs.removeLast();
+    }
+  }
+
   SongProvider() {
     getSongs();
   }
 }
-
